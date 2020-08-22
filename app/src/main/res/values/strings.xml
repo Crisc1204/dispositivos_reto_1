@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">App reto 1</string>
+    <string name="texto_bienvenida">Bienvenidos a la aplicación del grupo</string>
+    <string name="texto_boton_formulario">Formulario</string>
+    <string name="boton_formulario_enviar">Formulario enviado</string>
+    <string name="texto_boton_presentacion">Presentación del equipo</string>
+    <string name="texto_boton_edad">Calcular una edad</string>
+    <string name="edit_text_nombre">Nombre</string>
+    <string name="edit_text_apellido">Apellido</string>
+    <string name="text_view_formulario">Diligenciar formulario</string>
+    <string name="edit_text_telefono">Teléfono</string>
+    <string name="texto_boton_formulario_enviar">Enviar formulario</string>
+    <string name="texto_calcular_edad">Calcular edad</string>
+    <string name="texto_presentar_equipo">Presentación del equipo</string>
+    <string name="text_view_menu_principal">Menú principal</string>
+    <string name="date_fecha_nacimiendo">Fecha de nacimiento</string>
+    <string name="date_fecha_actual">Fecha actual</string>
+    <string name="btn_calcular_edad">Calcular edad</string>
+</resources>
