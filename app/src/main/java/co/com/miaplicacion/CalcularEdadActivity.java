@@ -58,7 +58,7 @@ public class CalcularEdadActivity extends AppCompatActivity implements View.OnCl
             fecha.show();
         }
         if (view.getId()== R.id.btn_calcular_edad){
-            Toast.makeText(this, "Edad: "+calcular(anio, mes+1,year,month), Toast.LENGTH_LONG).show();
+            Toast.makeText(this, calcular(anio, mes+1,year,month), Toast.LENGTH_LONG).show();
         }
     }
     public String calcular(int anioNacmimiento, int mesNacimiento, int anioActual, int mesActual){
@@ -72,7 +72,9 @@ public class CalcularEdadActivity extends AppCompatActivity implements View.OnCl
             meses = 12- (mesActual - mesNacimiento);
         }if (anioNacmimiento <= anioActual && mesNacimiento <= mesActual){
             return " La edad no es válida";
+        }if ( anioNacmimiento == 0 && anioActual == 0){
+            return "Debe ingresar una fecha";
         }
-        return años+" años "+meses+" meses ";
+        return "Edad: "+años+" años "+meses+" meses ";
     }
 }
