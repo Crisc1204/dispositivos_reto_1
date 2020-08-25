@@ -16,4 +16,5 @@
     <string name="date_fecha_nacimiendo">Fecha de nacimiento</string>
     <string name="date_fecha_actual">Fecha actual</string>
     <string name="btn_calcular_edad">Calcular edad</string>
+    <string name="date_edad">Edad</string>
 </resources>
