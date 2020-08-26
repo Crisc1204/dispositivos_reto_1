@@ -17,8 +17,8 @@
     <string name="date_fecha_actual">Fecha actual</string>
     <string name="btn_calcular_edad">Calcular edad</string>
     <string name="date_edad">Edad</string>
-    <string name="integrante_1">Nombre Integrante 1</string>
-    <string name="integrante_2">Nombre Integrante 2</string>
+    <string name="integrante_1">Cristian Aristizábal</string>
+    <string name="integrante_2">Karina Pineda</string>
     <string name="edit_text_integrante1">integrante1</string>
     <string name="edit_text_integrante2">integrante2</string>
 </resources>
